@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kainan sa Katipunan</title>
+    <link rel="icon" type="images/x-icon" href="images/kainan vintage.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="menu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="menu.html" class="logo">Kainan sa <span>Katipunan .</span></a>
+            <div class="links" id="nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="team.html">Team</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <section class="container content-section">
+            <h1 class="main-header"> Our <span>Menu</span></h1>
+            <div class = "menu-btns">
+                <button type = "button" class = "menu-btn active-btn" id = "Breakfast" onclick="location.href='menu.html'">Breakfast</button>
+                <button type = "button" class = "menu-btn" id = "Lunch" onclick="location.href='lunch and dinner.html'">Lunch/Dinner</button>
+                <button type = "button" class = "menu-btn" id = "Drinks" onclick="location.href='drinks.html'">Drinks</button>
+                <button type = "button" class = "menu-btn" id = "Drinks" onclick="location.href='dessert.html'">Desserts</button>
+            </div>
+          <h2 class="section-header">Breakfast</h2>
+          <div class="shop-items">
+              <div class="shop-item">
+                  <span class="shop-item-title">Vigan Longganisa</span>
+                  <img class="shop-item-image" src="images/menu1.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">₱80 per serving</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </div>
+              <div class="shop-item">
+                  <span class="shop-item-title">Fried Bangus</span>
+                  <img class="shop-item-image" src="images/menu2.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">₱120 per serving</span>
+                      <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                  </div>
+              </div>
+              <div class="shop-item">
+                  <span class="shop-item-title">Tocino</span>
+                  <img class="shop-item-image" src="images/menu3.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">₱100 per serving</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </div>
+              <div class="shop-item">
+                  <span class="shop-item-title">Hotdog Omelette</span>
+                  <img class="shop-item-image" src="images/menu4.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">₱50 per serving</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </div>
+          </div>
+          <div class="shop-items">
+              <div class="shop-item">
+                  <span class="shop-item-title">Chicken Arroz Caldo (Lugaw)</span>
+                  <img class="shop-item-image" src="images/menu6.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">₱60 per serving</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </div>
+              <div class="shop-item">
+                  <span class="shop-item-title">Champorado</span>
+                  <img class="shop-item-image" src="images/menu7.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">₱50 per serving</span>
+                      <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                  </div>
+              </div>
+              <div class="shop-item">
+                  <span class="shop-item-title">Creamy Sopas</span>
+                  <img class="shop-item-image" src="images/menu8.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">₱75 per serving</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </div>
+              <div class="shop-item">
+                  <span class="shop-item-title">Pancit Bihon Overload</span>
+                  <img class="shop-item-image" src="images/menu9.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">₱120 per serving</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </div>
+          </div>
+          <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Bacon</span>
+                <img class="shop-item-image" src="images/menu10.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">₱110 per serving</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Spam (Ham)</span>
+                <img class="shop-item-image" src="images/menu11.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">₱110 per serving</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Cornbeef</span>
+                <img class="shop-item-image" src="images/menu12.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">₱90 per serving</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Eggplant Omelette</span>
+                <img class="shop-item-image" src="images/menu13.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">₱70 per serving</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Tuna Sandwich</span>
+                <img class="shop-item-image" src="images/menu15.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">₱60 per serving</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Grilled Cheese Sandwich</span>
+                <img class="shop-item-image" src="images/menu14.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">₱60 per serving</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Egg Mayo Sandwich</span>
+                <img class="shop-item-image" src="images/menu16.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">₱60 per serving</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Vegetable Sandwich</span>
+                <img class="shop-item-image" src="images/menu17.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">₱60 per serving</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="container content-section">
+          <h2 class="section-header">Rice</h2>
+          <div class="shop-items">
+              <div class="shop-item">
+                  <span class="shop-item-title">Fried Rice</span>
+                  <img class="shop-item-image" src="images/menu18.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">₱50 per serving</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </div>
+              <div class="shop-item">
+                  <span class="shop-item-title">Plain Rice</span>
+                  <img class="shop-item-image" src="images/menu19.jpg">
+                  <div class="shop-item-details">
+                      <span class="shop-item-price">₱25 per serving</span>
+                      <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="container content-section">
+          <h2 class="section-header">CART</h2>
+          <div class="cart-row">
+              <span class="cart-item cart-header cart-column">ITEM</span>
+              <span class="cart-price cart-header cart-column">PRICE</span>
+              <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+          </div>
+          <div class="cart-items">
+          </div>
+          <div class="cart-total">
+              <strong class="cart-total-title">Total</strong>
+              <span class="cart-total-price">₱0</span>
+          </div>
+          <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+      </section>
+      <section class="footer">
+        <div class="social">
+          <a href="https://instagram.com/kainansakatipunan?igshid=ZDdkNTZiNTM="><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/KsKcirca2023?t=oxwLDHQUOj2uDtF3LDi51g&s=07"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100091974583057"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <ul class="list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="team.html">Team</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="Privacy Policy.html">Privacy Policy</a>
+          </li>
+        </ul>
+        <p class="copyright">Kainan sa Katipunan @ 2023</p>
+      </section>
+      <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.header {
+    width: auto;
+    height: auto;
+    background: url(./images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content {
+    flex-basis: 40%;
+    color: #fff;
+    text-align: center;
+}
+
+.about-content h1 {
+    font-size: 35px;
+    color: var(--white);
+    padding: 1rem 0;
+}
+
+.about-content h3 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+}
+
+.about-content b {
+    font-size: 18px;
+}
+
+.about-content p {
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.5;
+    text-align: justify;
+}
